@@ -11,3 +11,12 @@ then
 `pythonw main.py` for Windows
 
 `nohup python3 main.py &` for Linux
+
+~~or ``nohup python3 main.py & rm nohup.out`~~
+
+# Config only updates on restart, cba to fix that
+
+To stop program, click on the system tray icon 
+
+or `pkill main.py` on linux
+

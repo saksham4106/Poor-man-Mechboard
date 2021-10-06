@@ -1,2 +1,2 @@
 # Poor-man-Mechboard
-yes
+~~don't judge code quality, this was made for timepass~~

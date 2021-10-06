@@ -1,6 +1,6 @@
 pynput
-playsound
+playsound==1.2.2
 pydub
 pystray
 Pillow
-threading
+thread6

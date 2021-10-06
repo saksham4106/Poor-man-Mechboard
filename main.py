@@ -15,12 +15,14 @@ def keyHandling(args):
         json_content = file.read()
 
     def updateVolume(sounds, volume):
-        for i in sounds:
-            song = AudioSegment.from_mp3(i)
-            newVolume = song + volume
-            updated_string = i[:6] + 'buffer/updated' + i[6:]
-            newVolume.export(updated_string, format="mp3")
-
+        try:
+            for i in sounds:
+                song = AudioSegment.from_mp3(i)
+                newVolume = song + volume
+                updated_string = i[:6] + 'buffer/updated' + i[6:]
+                newVolume.export(updated_string, format="mp3")
+        except FileNotFoundError:
+            pass
 
     config = json.loads(json_content)
     volume = config["volume"]

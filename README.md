@@ -5,6 +5,9 @@ Just plays mechanical key sounds on keypress
 
 to run
 `pip install -r requirements.txt`
+
 then
+
 `pythonw main.py` for Windows
+
 `nohup python3 main.py &` for Linux

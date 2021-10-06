@@ -18,5 +18,4 @@ then
 
 To stop program, click on the system tray icon 
 
-or `pkill main.py` on linux
 

@@ -1,0 +1,7 @@
+{
+    "volume": 10,
+    "char_sound": "audio/cherry_char.mp3,audio/cherry_char1.mp3",
+    "enter_sound": "audio/cherry_enter.mp3",
+    "space_sound": "audio/cherry_space.mp3",
+    "backspace_sound": "audio/cherry_backspace.mp3" 
+}

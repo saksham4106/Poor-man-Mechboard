@@ -1,0 +1,6 @@
+pynput
+playsound
+pydub
+pystray
+Pillow
+threading

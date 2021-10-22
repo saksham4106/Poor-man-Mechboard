@@ -9,6 +9,8 @@ from pystray import MenuItem as item
 from threading import Thread
 import time 
 import os
+import pygame
+
 def keyHandling(args):
     json_content = ""
     with(open("config.json", "r")) as file:
@@ -50,7 +52,12 @@ def keyHandling(args):
 
         playSound = sounds[random.randint(0, len(sounds) - 1)]
         updated_string = playSound[:6] + 'buffer/updated' + playSound[6:]
-        playsound(updated_string, False)
+        #playsound(updated_string, False)
+        # song = AudioSegment.from_mp3(updated_string)
+        # play(song)
+        pygame.mixer.init()
+        pygame.mixer.music.load(updated_string)
+        pygame.mixer.music.play()
 
     
     with Listener(on_press = show) as listener:   

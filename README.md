@@ -12,7 +12,7 @@ then
 
 `nohup python3 main.py &` for Linux
 
-~~or `nohup python3 main.py & rm nohup.out`~~
+~~or `nohup python3 main.py`~~
 
 # For Windows you need to switch / to \
 <details>

@@ -1,6 +1,6 @@
 pynput
-playsound==1.2.2
 pydub
 pystray
 Pillow
 thread6
+pygame

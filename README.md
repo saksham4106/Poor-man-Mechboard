@@ -1,28 +1,17 @@
 # Poor-man-Mechboard
-~~don't judge code quality, this was made for timepass~~
+Plays mechanical key sounds on keypress so you don't have to buy an expensive Keyboard!
 
-Just plays mechanical key sounds on keypress
-
-to run
+# Setup
+## Installing dependencies
 `pip install -r requirements.txt`
-
-then
-  
+## Starting the application
 `pythonw main.py` for Windows
 
 `nohup python3 main.py &` for Linux
 
-~~or `nohup python3 main.py`~~
+#### For Windows, switch all occurences of / to \
+#### Config only updates on restart
 
-# For Windows you need to switch / to \
-<details>
-<summary>
-</summary>
-  Windows is dumb
-  </details> 
-  
-# Config only updates on restart, cba to fix that
-
-To stop program, click on the system tray icon 
+To stop the application, click on the system tray icon
 
 
